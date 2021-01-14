@@ -7,3 +7,7 @@ let port = 80;
 app.listen(port, () => {
   console.log(`running at localhost:${port}/`);
 });
+
+async () => {
+  await server.close();
+};
