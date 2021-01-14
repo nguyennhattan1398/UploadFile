@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 module.exports = mongoose.connect(
-  " mongodb://127.0.0.1:27017/DB_Query",
+  "mongodb+srv://demo:<password>@cluster0.pfpwe.mongodb.net/test",
   { useUnifiedTopology: true, useNewUrlParser: true },
   function (err, db) {
     if (err) throw err;
